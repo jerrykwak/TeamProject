@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// MyActor.h
 
 #pragma once
 
@@ -12,6 +12,8 @@ class TEAMPROJECT_API AMyActor : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
+
 	AMyActor();
+
+	virtual void BeginPlay() override;
 };
